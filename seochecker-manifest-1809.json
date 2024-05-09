@@ -3,7 +3,7 @@
 	"name": "阳光",
 	"lang": "zh",
 	"description": "阳光的个人网站",
-	"start_url": ""/"",
+	"start_url": "/",
 	"background_color": "#00aae7",
 	"theme_color": "#76d8ff",
 	"dir": "auto",
