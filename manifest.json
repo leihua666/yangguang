@@ -1,19 +1,20 @@
 {
     "short_name": "阳光",
     "name": "阳光",
-    "lang": "zh",
+    "lang": "zh-CN",
     "description": "阳光的个人网站",
     "start_url": "/",
+    "id":"/"
     "background_color": "#00aae7",
     "theme_color": "#76d8ff",
     "dir": "auto",
     "display": "standalone",
-    "orientation": "any",
     "icons": [
     {
       "src": "/android-icon-192x192-seochecker-manifest-1909.jpg",
       "type": "image/png",
       "sizes": "192x192"
+        "purpose":"any maskable"
     },
     {
       "src": "/apple-icon-180x180-seochecker-manifest-1909.jpg",
@@ -75,6 +76,5 @@
       "type": "image/png",
       "sizes": "16x16"
     }
-  ],
-  "prefer_related_applications": false
+  ]
 }
