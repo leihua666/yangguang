@@ -1,4 +1,13 @@
-{
+{ "short_name": "阳光",
+    "name": "阳光",
+    "lang": "zh-CN",
+    "description": "阳光的个人网站",
+    "start_url": "/",
+    "id": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#76d8ff",
+    "dir": "auto",
+    "display": "standalone",
   "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
