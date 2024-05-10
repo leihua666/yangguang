@@ -25,6 +25,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
     <meta name="apple-mobile-web-app-title" content="阳光">
+    const service = axios.create({
+
+  baseURL:
+
+   process.env.NODE_ENV === 'dev'
+
+      ? process.env.VUE_APP_DEV_API
+
+      : process.env.VUE_APP_PRODUCTION_API,
+
+  timeout: 10000
+
+})
     <style>
         body{
             margin: 0;
